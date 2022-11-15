@@ -8,6 +8,7 @@ public class Home extends Encryption<T>  Message<M>{
 	public Home() {
 
     }
+    fuck 
 
     public void chooseAlg(T encryption) {
         this.encryptionAlg = encryption;
