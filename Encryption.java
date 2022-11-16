@@ -1,11 +1,7 @@
-public class Encryption<T> {
-    protected String encryptA(T msg, int key) {
-		return encryptA(msg, key);
-	}
-	protected String encryptB(T msg, int key) {
-		return msg + "9dfs";
-	}
-	protected String encryptC(T msg, int key) {
-		return msg + "adsd";
-	}
+public interface Encryption {
+    /* should be implemented by all encryption algorithms */
+
+    public String encrypt(String msg, int key);
+    public String decrypt(String encryptedMsg, int key);
+
 }
